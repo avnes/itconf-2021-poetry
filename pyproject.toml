@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "itconf-2021-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Audun Nes <aunes@dfds.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+pylint = "^2.11.1"
+bandit = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
